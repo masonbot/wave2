@@ -8,6 +8,7 @@ black = [2, 4, 6, 8, 10, 11, 13, 15, 17, 20, 22, 24, 26, 28, 29, 31, 33, 35]
 for a in random.sample(green + red + black, 1):
     if a== 0 or 00:
          print("pay 00 or 0")
+         break
     else:
         print("The spin resulted in ", a)
         print("Pay", a)
